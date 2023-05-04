@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend Nodejs",
+  "main": "app.js",
+  "author": "nolascode",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -e js --watch src src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
